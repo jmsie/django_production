@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OTA_VehAvailRateRQ xmlns="http://www.opentravel.org/OTA/2003/05" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opentravel.org/OTA/2003/05 OTA_VehAvailRateRQ.xsd" Version="1.008" SequenceNmbr="123456789" MaxResponses="10">
+<POS>
+<Source ISOCountry="US" AgentDutyCode="A7G15O7G15O">
+<RequestorID Type="4" ID="T997">
+<CompanyName Code="CP" CodeContext="32JO"/>
+</RequestorID> </Source>
+</POS>
+<VehAvailRQCore Status="All">
+<VehRentalCore PickUpDateTime="2019-09-15T15:45:00" ReturnDateTime="2019-09-18T13:30:00" >
+<PickUpLocation LocationCode="LAX" CodeContext="IATA" />
+<ReturnLocation LocationCode="LAX" CodeContext="IATA" /> </VehRentalCore>
+<VehPrefs>
+<VehPref AirConditionInd="true" TransmissionType="Automatic"> <VehType VehicleCategory="1" DoorCount="4"/>
+<VehClass Size="3"/>
+</VehPref>
+<VehPref AirConditionInd="false" AirConditionPref="Preferred" TransmissionType="Automatic" TransmissionPref="Preferred" FuelType="Diesel" DriveType="AWD" UpSellInd="true">
+<VehType VehicleCategory="2" DoorCount="4"/> <VehClass Size="8"/>
+</VehPref> </VehPrefs>
+ <SpecialEquipPrefs>
+<SpecialEquipPref EquipType="8" Quantity="1"/> </SpecialEquipPrefs>
+</VehAvailRQCore>
+</OTA_VehAvailRateRQ>
