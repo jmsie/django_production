@@ -1,4 +1,4 @@
-# django_production-
+# django_production
 This is a Django production-able env with:
 ```
 DB: Postgres
